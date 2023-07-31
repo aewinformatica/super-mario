@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Libs Value="-mwindows -lmingw32 -lpthreadGC2  -lSDLmain  -lSDL   "/>
+	<Flags Value=""/>
+	<Target Value="SuperMarioClone.exe"/>
+	<CommandLine Value=""/>
+	<CompilerOptions Value=""/>
+	<DeleteObjectsBefore Value="Yes"/>
+	<DeleteObjectsAfter Value="Yes"/>
+	<DeleteMakefileAfter Value="Yes"/>
+	<DeleteResourcesAfter Value="Yes"/>
+	<EnableTheme Value="No"/>
+	<RequiresAdmin Value="No"/>
+	<CompilerType Value="CPP"/>
+	<AppType Value="GUI"/>
+	<Files>
+		<File Name="main.cpp"/>
+		<File Name="lib\window.h"/>
+		<File Name="lib\window.cpp"/>
+		<File Name="lib\game.h"/>
+		<File Name="lib\game.cpp"/>
+		<File Name="lib\animatedimage.cpp"/>
+		<File Name="lib\animatedimage.h"/>
+		<File Name="lib\staticimage.cpp"/>
+		<File Name="lib\staticimage.h"/>
+	</Files>
+</Project>
