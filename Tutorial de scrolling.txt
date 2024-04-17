@@ -1,0 +1,14 @@
+Imagine uma fase do Super Mario, quando o personagem chega no limite da tela, a tela começa a andar, e os sprites de fundo começam a se mover.
+
+É esse tipo de simulação que iremos mostrar agora.
+O código abaixo é controlado pelo teclado. Utilize as setas para fazer o cenário andar.
+Para escrever o código, primeiro precisamos saber que o personagem é o centro da tela da nossa rolagem ( ele não precisa estar no centro da tela necessariamente ).
+
+Quando o personagem se mover, devemos mover todos os tiles do fundo na posição oposta.
+Para isso, precisamos também ter o tamanho total da tela, no caso, a fase do nosso jogo.
+
+Nossa tela medirá 500 px.
+Nós vamos especificar o tamanho do cenario em 250 tiles.
+Cada tile terá 50 px de tamanho total;
+
+Iremos usar também a parte central da tela, desta forma, podemos ver o efeito de scrolling.
